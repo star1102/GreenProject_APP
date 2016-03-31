@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/txt_mName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="업로드 하려는 음악명을 입력하세요."/>
+    <EditText
+        android:id="@+id/txt_sName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="업로드 하려는 가수명을 입력하세요."/>
+    <ImageButton
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/upload"
+        android:background="#00ffffff"
+        android:padding="5dp"/>
+
+</LinearLayout>

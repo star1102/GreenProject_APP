@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_above="@+id/imgView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="본 앱은 과제용으로 제작되었습니다."/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_alignParentTop="@+id/btn_in"
+        android:background="#00ffffff"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/start"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/imgView"
+        android:background="#00ffffff"
+        />
+
+    <TextView
+        android:layout_alignBottom="@id/btn_in"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나를 눌러"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

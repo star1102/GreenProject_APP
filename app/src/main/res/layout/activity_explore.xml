@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/go_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/list"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:background="#00ffffff"/>
+        <ImageButton
+            android:id="@+id/go_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/back"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:background="#00ffffff"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/exploreList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:longClickable="true"></ListView>
+
+    </LinearLayout>
+
+
