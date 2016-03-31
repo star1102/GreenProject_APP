@@ -1,0 +1,138 @@
+@CHARSET "EUC-KR";
+    *{margin:0; padding:0;}
+    body{
+      font:12px "´ßÀ½°íµñ";
+	}
+    img{
+      border:o;
+	}
+    a{
+       text-decoration:none;
+	   color:#161616;
+	}
+	li{
+      list-style:none;
+	}
+
+    #header {
+        width:1000px;
+	    margin:0 auto;
+	}
+	#top_navi{
+       background:#363636;
+	   height:30px;
+	   overflow:hidden;
+	}
+	#top_navi ul li{
+      float:left;
+	  line-height:30px;
+	}
+	#top_navi ul li a{
+       color:#ffffff;
+	   margin:10px;
+	}
+    #top_navi ul li a:hover{
+       color:#dbbec2;
+	}
+	#top_navi span{
+      float:right;
+ 	  margin-right:20px;
+	  margin-top:8px;
+	}
+    
+    #logo{
+       text-align:left;
+	   padding:30px;
+
+	}
+
+	#small_navi{
+      overflow:hidden;
+	  line-height:30px;
+	  border-bottom:solid 2px;
+	}
+	#small_navi ul li {
+	   float:left;
+  	}
+	#small_navi ul li a{
+       margin:10px;
+	}
+    
+	#small_navi ul li a:hover{
+        color:#a56468;
+	}
+	
+	#big_navi{
+	  overflow:hidden;
+	  line-height:30px;
+	  border-bottom:2px solid;   /* ÇÏ´Ü°æ°è¼± */
+	}
+	#big_navi ul li{
+      float:left;
+	 
+	}
+	#big_navi ul li a{
+     margin:23px;
+	 text-align:center;
+	}
+    #big_navi ul li a:hover{
+	    color:#a56468;
+     }
+    #big_navi ul li span.boder{
+        width:0;
+	    height:10px;
+		border-right:1px solid #ccc;
+		float:right;
+		margin-top:10px;
+	}
+
+     #big_navi ul li span.boder_nond{
+         border-right:none;
+	 }
+	 
+	 #list_t ul tr{
+		overflow:hidden;
+		width:100%;
+		min-width:250px;
+		background:#fff;
+		margin-bottom:5px;
+	}
+	/* ÄÁÅÙÃ÷ */
+	#content{
+		padding:5px;
+		overflow:hidden;
+	}
+	
+	ul.text_title li{
+		width:1000px;
+	    margin:0 auto;
+	    height:35px;
+		line-height:35px;
+		border-bottom:1px solid #ccc;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		padding:0 10px;
+	}
+		
+	tr.song_list td{
+		font:12px "´ßÀ½°íµñ";
+	    margin:0 auto;
+	    height:35px;
+		line-height:35px;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		padding:0 10px;
+	}
+	
+	tr.song_emp_list td{
+	    margin:0 auto;
+	    height:1px;
+		line-height:1px;
+		border-bottom:1px solid #ccc;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		padding:0 10px;
+	}

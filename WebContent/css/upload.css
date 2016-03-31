@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+
+html, body, div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+}
+ol, ul {
+	list-style: none;
+	margin : 1em;
+}
+
+div{
+	margin : 0.5em;
+}
+.box{
+  display: inline-block;
+  /*왼쪽부터 채워지다가 자리가 모자라면 아래로 자연스럽게 흐르듯이 배치*/
+  float: left;/*n스크린 기기에 대응*/	
+}
+
+.box2{
+  clear: both;
+  display: block;
+}
+
+.box3{
+  clear: both;
+  display: block;
+  text-align : center;
+}
+
+ul li{
+  list-style:none; 
+}
+
+table, tr, th, td{
+  border : 1px solid red;
+  border-collapse : collapse;
+}
+
+#mList ul li{
+	margin : 0.5em;
+}
+#lStatus,#mStatus,#status{
+  background-color : #CAE2F7;
+  margin : 0px;
+  padding: 0px;
+}
+#showQna{
+	width: 650px;
+}
+#showQna ul{
+  border : 1px solid black;
+  border-collapse : collapse;
+}
+#regForm ul li{
+	margin : 1em;
+}
+
+#info table, #info table tr, #info table tr td{
+	border : 0;
+}
+#cinfo table, #cinfo table tr, #cinfo table tr td{
+	border : 0;
+}
+.noborder{
+  border : 0px;	
+}
+
+.inline{
+  display: inline;	
+}
+
+.cau{
+	color : red;
+	font-size : 9pt;
+}
+
+.title{ /*class="title"인 엘리먼트에 적용*/
+  background-color : #A5CFF1;
+  text-align : center;
+}
+
+.listimage{
+	 border: 0;
+	 width :40px; 
+	 height:72px;
+}
+
+.contentimage{
+	 border: 0;
+	 width :150px; 
+	 height:200px;
+}
+
+.b{
+	font-weight: bold;  
+}
+
+
+.bred{
+	color : red;
+	font-weight: bold;  
+}
+
+.vhcenter{
+	text-align : center;
+	vertical-align : middle;
+}
+
+.cen{
+  text-align : center;	
+}
+
+.date{
+	display: inline;
+	text-align : center;
+	color : gray;
+	font-size : 9pt;
+	margin : 5px;	
+}
+
+.ch{
+	height : 100px;
+}
+.hleft{
+	text-align : left;
+}
+.re{
+	margin: 20px;
+}
+@media screen and (max-width: 960px) {
+	#cata ul li  { 
+	  display: inline-block;
+   }
+}
